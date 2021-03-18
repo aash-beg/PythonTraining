@@ -3,11 +3,11 @@ def calc1(x, y, opr):
     return eval(z)
 
 
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
+num_1 = input('Enter first number: ')
+num_2 = input('Enter second number: ')
 ch = (input("Enter operator (+, -, /, *): "))
 
-out = calc1(num1, num2, ch)
+out = calc1(num_1, num_2, ch)
 out2 = {
     '+': 'Sum is',
     '-': 'Sub is',
